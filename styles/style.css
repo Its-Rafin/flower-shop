@@ -43,8 +43,12 @@ button {
     line-height: normal;
     padding: 20px 43px;
     border: none;
+    cursor: pointer;
 }
-
+button:hover{
+    background: #c4153b;
+    transform: scale(1.10);
+}
 .section-title {
     text-align: center;
     width: 445.5px;
@@ -281,6 +285,8 @@ button {
     line-height: normal;
     padding: 20px;
     width: 100%;
+    outline: none;
+    border-radius: 8px;
 }
 
 /* End subscriber section */
